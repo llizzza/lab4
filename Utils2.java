@@ -1,9 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-interface Filter<T> {
-    boolean test(T t);
-}
 class Utils2 {
     public static <T> List<T> filterList(List<T> input, Filter<T> filter) {
         List<T> result = new ArrayList<>();
