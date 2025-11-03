@@ -1,7 +1,3 @@
-public interface Comparable<type> {
-    int сравнить(type item);
-}
-
 class ClassComparable implements Comparable<ClassComparable>{
     private int item;
 
